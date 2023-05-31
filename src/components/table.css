@@ -1,0 +1,54 @@
+.table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .table-header {
+    padding: 10px;
+    border: 1px solid #121313;
+    background-color: rgb(244, 228, 48);
+  }
+  
+  .table-cell {
+    padding: 10px;
+    border: 1px solid #121313;
+    background-color: #a5e1e1;
+  }
+  
+  .table-controls {
+    margin-bottom: 10px;
+  }
+  
+  .table-controls input[type="text"] {
+    padding: 5px;
+    margin-right: 5px;
+  }
+  
+  .table-controls select {
+    padding: 5px;
+    margin-right: 5px;
+  }
+  
+  .pagination {
+    margin-top: 10px;
+  }
+  
+  .pagination button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    background-color: #ccc;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .pagination button:disabled {
+    background-color: #f3f3f3;
+    cursor: not-allowed;
+  }
+  
+  .pagination span {
+    margin-right: 5px;
+  }
+  
